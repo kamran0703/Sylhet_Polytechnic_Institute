@@ -1,0 +1,23 @@
+body {
+background-color: #ecf3ce;
+text-align: center;
+margin: 30px;
+}
+
+h1 {
+color: #f30606;
+border-radius: 10px;
+}
+h2 {
+color: #350ed3;
+
+}
+h3 {
+color: #1e0218;
+}
+h4 {
+    color: #f10cc0;
+}
+h5 {
+    color: #101010;
+}
