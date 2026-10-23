@@ -1,29 +1,58 @@
-body {
-background-color: #ecf3ce;
-text-align: center;
-margin: 30px;
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+.back-video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+}
+* { 
+	padding: 0;
+	margin: 0;
+} 
+html, body {
+	height: 100%;
+	width: 100%;
 }
 
-h1 {
-color: #f30606;
-border-radius: 10px;
-}
-h2 {
-color: #350ed3;
 
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
 }
-h3 {
-color: #1e0218;
+.navbar .logo{
+	width: 750px;
+	height: auto;
+	padding: 5px 50px;
 }
-h4 {
-    color: #f10cc0;
+.navbar ul{
+	float: right;
+	margin-right: 20px;
 }
-h5 {
-    color: #101010;
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(255, 255, 255);
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgba(214, 40, 40, 0.295);
+	border-radius: 2px;
 }
 
-border {
-    border: 1px solid #000000;
-    padding: 10px;
-    margin: 10px;
-}
